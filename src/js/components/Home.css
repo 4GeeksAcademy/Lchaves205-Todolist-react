@@ -1,0 +1,50 @@
+.table-container {
+    width: 50%;
+    margin: 0 auto;
+    background: #fdfd96; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background: #f0f0f0;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background: #e0e0e0;
+}
+
+.table tbody tr .delete-btn {
+    display: none;
+}
+
+.table tbody tr:hover .delete-btn {
+    display: inline-block;
+}
+
+.no-tasks-message {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ff0000; 
+    
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
